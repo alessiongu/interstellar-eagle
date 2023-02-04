@@ -6,10 +6,10 @@ spieler.style.bottom = "820vh";
 spieler.style.left = "10vw";
 
 //AUDIO
-var explosion2 = new Audio("sounds/explosion2.wav");
-var flatter = new Audio("sounds/flap2.wav");
+var explosion2 = new Audio("sounds/explosion2.mp3");
+var flatter = new Audio("sounds/flap2.mp3");
 var gamoversound = new Audio("sounds/gameo.mp3");
-var backgroundmusic = new Audio("sounds/background.wav");
+var backgroundmusic = new Audio("sounds/background.mp3");
 
 //SCORE
 var punkteAnzeige = document.querySelector(".punkte");
