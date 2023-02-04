@@ -1,0 +1,79 @@
+
+*{
+  font-family: 'Courier New', Courier, monospace;
+  font-size:large;
+  font-weight: bold;
+}
+
+.playground {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("graphic/background.png");
+  background-size: cover;
+  background-position: 0;
+  margin: -8px;
+  overflow: hidden;
+
+}
+ 
+
+  .punkte{
+    top: 30px;
+     position: absolute;
+     margin: 0;
+     padding: 25px;
+     background-color: white;
+     border: 3px solid black;
+     left: 30px;  
+  }
+
+  .retry{
+    position: absolute;
+    width: 76.5px;
+    top: 125px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  .player {
+    position: absolute;
+    background-image: url(graphic/player.png);
+    background-size: cover;
+    height: 33px;
+    width: 50px;
+  }
+
+  .starship {
+    position: absolute;
+  }
+
+  .body, .body{
+    margin: -8;
+  }
+
+  .fullscreen {
+    display: none;
+  }
+
+  .gocontainer {
+    POSITION: absolute;
+    width: 99%;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 25vh;
+}
+
+
+.anleitung {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  position: absolute;
+  margin-top: 160px;
+  color: brown;
+  left: 30px;
+}
